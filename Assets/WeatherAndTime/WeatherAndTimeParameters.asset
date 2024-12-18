@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06e5f64a256f3c44f8e42fb01ecde528, type: 3}
+  m_Name: WeatherAndTimeParameters
+  m_EditorClassIdentifier: 
+  skyGradient:
+    serializedVersion: 2
+    key0: {r: 0.15686275, g: 0.15686275, b: 0.21568629, a: 1}
+    key1: {r: 0.3529412, g: 0.36078432, b: 0.53333336, a: 1}
+    key2: {r: 0.7735849, g: 0.7514519, b: 0.71885014, a: 0}
+    key3: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 0}
+    key4: {r: 1, g: 1, b: 1, a: 0}
+    key5: {r: 0.8301887, g: 0.80473477, b: 0.7792809, a: 0}
+    key6: {r: 0.5543945, g: 0.54561234, b: 0.5754717, a: 0}
+    key7: {r: 0.3019608, g: 0.3019608, b: 0.3019608, a: 0}
+    ctime0: 0
+    ctime1: 5012
+    ctime2: 16769
+    ctime3: 20239
+    ctime4: 32960
+    ctime5: 46453
+    ctime6: 53392
+    ctime7: 65150
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 8
+    m_NumAlphaKeys: 2
+  equatorGradient:
+    serializedVersion: 2
+    key0: {r: 0.15686275, g: 0.15686275, b: 0.21568629, a: 1}
+    key1: {r: 0.3529412, g: 0.36078432, b: 0.53333336, a: 1}
+    key2: {r: 0.7735849, g: 0.7514519, b: 0.71885014, a: 0}
+    key3: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 0}
+    key4: {r: 1, g: 1, b: 1, a: 0}
+    key5: {r: 0.8301887, g: 0.80473477, b: 0.7792809, a: 0}
+    key6: {r: 0.5543945, g: 0.54561234, b: 0.5754717, a: 0}
+    key7: {r: 0.3019608, g: 0.3019608, b: 0.3019608, a: 0}
+    ctime0: 0
+    ctime1: 5012
+    ctime2: 16769
+    ctime3: 20239
+    ctime4: 32960
+    ctime5: 46453
+    ctime6: 53392
+    ctime7: 65150
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 8
+    m_NumAlphaKeys: 2
+  groundGradient:
+    serializedVersion: 2
+    key0: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 31226
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  weatherBlendSpeed: 0.6
+  timeChangeSpeed: 3
+  isLightIntensityToChange: 1
+  isFogIntensityToChange: 1
+  sunnyLightIntensity: 0.5
+  sunnyGradientMultiplier: 0.9
+  cloudTextureBlendInSunny: 0.1
+  cloudRotationSpeedInSunny: 0.5
+  fogMuliplierInSunny: 1
+  cloudyLightIntensity: 0.3
+  cloudyGradientMultiplier: 0.8
+  cloudTextureBlendInCloudy: 0.9
+  cloudRotationSpeedInCloudy: 1
+  fogMuliplierInCloudy: 1.5
+  rainyLightIntensity: 0.3
+  rainyGradientMultiplier: 0.75
+  cloudTextureBlendInRainy: 0.9
+  cloudRotationSpeedInRainy: 1.5
+  fogMuliplierInRainy: 2
